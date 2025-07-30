@@ -11,7 +11,7 @@ function countSafeReports(levels) {
         continue topLevelLoop;
       }
     }
-    console.log(report);
+
     safeCount++;
   }
   return safeCount;
